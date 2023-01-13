@@ -1,0 +1,18 @@
+.form_animated {
+    animation: 1s moveTopToBottom;
+}
+
+@keyframes moveTopToBottom {
+    0%{
+       top: 0;
+       left: 50%;
+       opacity: 0;
+       transform: translate(0,-50%),
+    
+    }100% {
+       top: 50%;
+       left: 50%;
+       opacity: 1;
+       transform: translate(-50%,-50%),
+    }
+}

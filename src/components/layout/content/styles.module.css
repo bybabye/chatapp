@@ -1,0 +1,18 @@
+/* >= 1920px */
+.content {
+    width: calc(100% - var(--nav-wide-width));
+    margin-left: auto;
+}
+
+
+@media (min-width : 1264px) and (max-width:1919px)  {
+    .content {
+        width: calc(100% - var(--nav-medium-width));
+    }
+}
+
+@media (min-width : 768px) and (max-width:1263px)  {
+    .content {
+        width: calc(100% - var(--nav-medium-width));
+    }
+}

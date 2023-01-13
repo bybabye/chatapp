@@ -1,0 +1,43 @@
+.content {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0 20px 0;
+}
+.content_open_form {
+   position: relative;
+   
+}
+.content_message{
+    height: 100%;
+    min-height: 350px;
+    max-width: 933px;
+    width: 100%;
+    border-radius: 8px;
+    background-color: #E6EEF8;
+    box-shadow: -16px -16px 40px 0 rgba(253, 255, 255, .8) , 16px 16px 40px 0 rgba(187, 195, 206, .6);
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.content_message_room {
+    width: 310px;
+    border-right: 1px solid #ccc;
+    
+}
+.content_message_listroom{
+    height: calc(100% - 60px);
+}
+
+.content_message_chats {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: calc(100% - 310px);
+}
+
+

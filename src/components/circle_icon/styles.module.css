@@ -1,0 +1,20 @@
+
+
+.icon{
+    height: 48px;
+    width: 48px;
+    background-color: #E6EEF8;
+    border-radius: 50%;
+    box-shadow: -4px -4px 12px 0 rgba(253, 255, 255, .8) , 4px 4px 12px 0 rgba(187, 195, 206, .6);
+    display: block;
+   
+}
+.icon_isChoose {
+    height: 48px;
+    width: 48px;
+    background-color: #E6EEF8;
+    border-radius: 50%;
+    box-shadow: inset -4px -4px 12px 0 rgba(253, 255, 255, .8) , inset 4px 4px 12px 0 rgba(187, 195, 206, .6);
+    display: block;
+    
+}

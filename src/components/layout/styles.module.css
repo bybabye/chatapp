@@ -1,0 +1,27 @@
+.sidebar{
+    height: 100vh;
+    width: var(--nav-wide-width);
+    background-color: white;
+    border-right: 1px solid #ccc;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    padding: 25px 16px 25px 16px;
+}
+
+@media (min-width : 1264px) and (max-width:1919px)  {
+    .sidebar {
+        width: var(--nav-medium-width);
+    }
+}
+
+@media (min-width : 768px) and (max-width:1263px)  {
+    .sidebar {
+        width: var(--nav-medium-width);
+    }
+}
+
+
+@media screen and (max-width: 767px) {
+    
+}
